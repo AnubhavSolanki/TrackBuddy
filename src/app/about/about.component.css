@@ -1,0 +1,28 @@
+*{
+    color:white;
+}
+
+.headings{
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+}
+
+.text{
+    margin-left: 2%; 
+    margin-bottom: 8%;
+    font-size: 30px;
+}
+small{
+    font-size: 20px;
+}
+
+.box{
+    box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+    backdrop-filter: blur(5px);
+    padding: 5%;
+    width: 60%;
+    margin-top: 4%; 
+    margin-left: 20%; 
+    margin-right: 24%;
+    margin-bottom: -10%;
+}

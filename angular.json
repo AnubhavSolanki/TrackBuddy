@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TrackApp"
+    }
+  },
+  "defaultProject": "TrackApp",
+  "cli": {
+    "analytics": "c0784100-b308-42dd-9170-c88b2463dd85"
+  }
 }
