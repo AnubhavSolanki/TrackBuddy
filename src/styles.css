@@ -61,6 +61,9 @@ body{
     background:linear-gradient(rgba(65, 57, 57, 0.7),rgba(0,0,0,0.7)), url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
     font-family: 'Ubuntu', sans-serif; 
     background-attachment: fixed;
+    min-width:1000px;        /* Suppose you want minimum width of 1000px */
+    width: auto !important;  /* Firefox will set width as auto */
+    width:1000px;
 }
 
 .gm-style div{
