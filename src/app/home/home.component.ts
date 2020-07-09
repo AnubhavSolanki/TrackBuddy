@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
   friendIcon:string='https://img.icons8.com/color/48/000000/boy-avatar.png';
 
   constructor() {
-    this.socket = io.connect('https://peaceful-ridge-27523.herokuapp.com/');
+    this.socket = io.connect('https://trackbuddy.herokuapp.com/');
   }
 
   
