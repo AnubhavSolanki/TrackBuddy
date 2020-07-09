@@ -21,14 +21,14 @@
             <agm-marker  [latitude]="myLocationLatitude" [longitude]="myLocationLongitude"  [animation]="'BOUNCE'"  [iconUrl]="myIcon"    [label] ="{text:'Me'}" (mouseOver)="onMouseOver(infoWindow)" (mouseOut)="onMouseOut(infoWindow)">
                 <agm-info-window [disableAutoPan]="false" #infoWindow>
                     <div>
-                        Hey their, It's my Location.
+                        Hey there, It's my Location.
                     </div>
                 </agm-info-window>
             </agm-marker>
             <agm-marker  [latitude]="friendLatitude" [longitude]="friendLongitude" [animation]="'BOUNCE'"  [iconUrl]="friendIcon" [label] ="{text:'friend'}" (mouseOver)="onMouseOver(infoWindow1)" (mouseOut)="onMouseOut(infoWindow1)">
                 <agm-info-window [disableAutoPan]="false" #infoWindow1>
                     <div>
-                        Hey their, I am {{friend_name}}
+                        Hey there, I am {{friend_name}}
                     </div>
                 </agm-info-window>
             </agm-marker>  
