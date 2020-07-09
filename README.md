@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 In this project I have used Angular, TypeScript, HTML, CSS, BootStrap, Socket.io, express and Node Js. 
 
 ## How to run..?
-Just type `npm i` after cloning the repo and after thant `npm start` to start the website.
+Just type `npm i` after cloning the repo and after that `npm start` to run the website.
 
 ## Development server
 
