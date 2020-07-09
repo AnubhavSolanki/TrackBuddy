@@ -127,7 +127,7 @@ export class HomeComponent implements OnInit {
           longitude : position.coords.longitude
         };
         this.socket.emit("sendMyDetails",myDetails);
-      } ,()=>{console.log("error occured");} , {
+      } ,(err)=>{console.log("error" + err.code + " : " + err.message );} , {
         enableHighAccuracy: false,
         timeout: 5000,
         maximumAge: 0
