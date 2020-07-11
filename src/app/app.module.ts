@@ -16,7 +16,7 @@ import { AboutComponent } from './about/about.component';
     BrowserModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCptVYrsvg2Em36_H99Hnrp4UccxHU5rtM'
+      apiKey: 'YOUR API KEY'
     }),
   ],
   providers: [],
