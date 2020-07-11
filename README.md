@@ -10,8 +10,7 @@ In this project I have used Angular, TypeScript, HTML, CSS, BootStrap, Socket.io
 
 ## How to run..?
 Just type ```npm i``` after cloning the repo,then type ```ng build``` to build website and after that type ```npm start``` to run the website.  
-Don't forget to enter api keys of google.  
-Please check the server file, you can comment line to execute the server in localhost  
+Don't forget to enter api keys of google.    
 Website will run on http://localhost:3000/
 
 ## Development server
