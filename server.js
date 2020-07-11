@@ -11,6 +11,8 @@ http.listen(port, function () {
     console.log('Server Started. Listening on http://localhost:' + port);
 });
 
+/*
+Uncomment the lines to deploy in production and in secure mode
 
 const forceSSL = function() {
     return function (req, res, next) {
@@ -23,12 +25,13 @@ const forceSSL = function() {
   
 
 app.use(forceSSL());
+
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "X-Requested-With");
     next();
 });
-
+*/
 app.use(express.static(__dirname + '/dist'));
 app.get('/*', function(req, res) {
     res.sendFile(path.join(__dirname + '/dist/TrackApp/index.html'));
