@@ -114,25 +114,32 @@ export class HomeComponent implements OnInit {
     });
   }
 
-
-
-  ngOnInit(): void {
-    this.getMylocation();
+  watcher(){
     if(navigator.geolocation){
       navigator.geolocation.watchPosition(position=>{
+        console.log('inside');
         let myDetails = {
           name : this.my_name,
           friendName : this.friend_name,
           latitude : position.coords.latitude,
           longitude : position.coords.longitude
         };
-        this.socket.emit("sendMyDetails",myDetails);
+        if(myDetails.latitude!=this.myLocationLatitude || myDetails.longitude!=this.myLocationLongitude){
+          this.socket.emit("sendMyDetails",myDetails);
+          this.myLocationLongitude = myDetails.longitude;
+          this.myLocationLatitude = myDetails.latitude;
+        }
       } ,(err)=>{console.log("error" + err.code + " : " + err.message );} , {
         enableHighAccuracy: false,
-        timeout: 5000,
+        timeout: 20000,
         maximumAge: 0
       });
     }
+  }
+
+  ngOnInit(): void {
+    this.getMylocation();
+    this.watcher(); 
   }
 
 }
