@@ -9,7 +9,7 @@ https://trackbuddy.herokuapp.com/
 In this project I have used Angular, TypeScript, HTML, CSS, BootStrap, Socket.io, express and Node Js. 
 
 ## How to run..?
-Just type ```npm i``` after cloning the repo,then type ```ng build``` to build website and after that type ```npm start``` to run the website.
+Just type ```npm i``` after cloning the repo,then type ```ng build``` to build website and after that type ```npm start``` to run the website.  
 Don't forget to enter api keys of google.  
 Please check the server file, you can comment line to execute the server in localhost  
 Website will run on http://localhost:3000/
