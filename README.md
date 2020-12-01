@@ -5,6 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Demo Website : 
 https://trackbuddy.herokuapp.com/
 
+## Video Link : 
+https://www.linkedin.com/posts/anubhavsolanki_tracking-googlemaps-html-activity-6687658479173320704-cqxf
+
 ## Technology Used
 In this project I have used Angular, TypeScript, HTML, CSS, BootStrap, Socket.io, express and Node Js. 
 
